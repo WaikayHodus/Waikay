@@ -1,0 +1,64 @@
+body {  
+  background: url('https://media.istockphoto.com/id/1402835350/photo/pensive-relaxed-african-american-woman-reading-a-book-at-home-drinking-coffee-sitting-on-the.jpg?b=1&s=170667a&w=0&k=20&c=mSRr65oCMtM4vI8Kd3NvKZS0v0ENG-YN8YKiCTCK_L4=');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+ background-color: rgb(0,0,0,80%);
+ font-family: Tahoma;
+ margin:-10px;
+ padding: 5px;
+ font-size: 16px; 
+}
+label {
+  display: block;
+  margin: 0.5rem 0;  
+}
+h1,p {
+  text-align: center;
+  color: white;
+}
+
+form {    
+ background-color: rgb(20,10, 90, 80%);
+ color: white;
+  width: 600px;
+  margin: auto;
+}
+
+.container {
+  border: none;  
+  /*width: 60vw;*/
+  width: 550px;
+  margin: 3 auto;
+  padding: 5px;
+}
+input,
+textarea,
+select {
+  margin: 12px;
+  width: 500px;
+  min-height: 2em;
+  /*padding-left: 2%;*/
+}
+fieldset {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width:unset;
+  border: none;
+ }
+textarea {
+  height: 200px;
+}
+.recommend {
+  width: unset;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+}
+.submit {
+  background-color: rgb(0, 150, 0);
+  color: white;
+  border-radius: 10px;
+  border:none;
+  min-height: 3em;
+}
